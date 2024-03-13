@@ -1,0 +1,25 @@
+{
+  "classname" : "com.sid.gl.switchingdatasource.repositories.UserInternationalRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.sid.gl.switchingdatasource.repositories.UserInternationalRepository#findAll#()Ljava.util.List<Lcom.sid.gl.switchingdatasource.entities.UserInternational;>;" : [ {
+      "id" : "a1c8e12e-dac8-45b5-8ffe-087df3c3e9fb",
+      "name" : "mock response for call to userInternationalRepository.findAll",
+      "fieldTypeName" : "com.sid.gl.switchingdatasource.repositories.UserInternationalRepository",
+      "sourceClassName" : "com.sid.gl.switchingdatasource.service.TestService",
+      "fieldName" : "userInternationalRepository",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\": \"0\", \"name\": \"string\", \"age\": \"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<com.sid.gl.switchingdatasource.entities.UserInternational>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.sid.gl.switchingdatasource.repositories.UserInternationalRepository#findAll#()Ljava.util.List<Lcom.sid.gl.switchingdatasource.entities.UserInternational;>;"
+    } ]
+  }
+}

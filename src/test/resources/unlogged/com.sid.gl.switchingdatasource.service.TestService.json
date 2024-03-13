@@ -1,0 +1,25 @@
+{
+  "classname" : "com.sid.gl.switchingdatasource.service.TestService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.sid.gl.switchingdatasource.service.TestService#getAllUserInternational#()Ljava.util.List<Lcom.sid.gl.switchingdatasource.entities.UserInternational;>;" : [ {
+      "id" : "a13ee378-c6cb-46d7-95a5-5fdf8077730d",
+      "name" : "mock response for call to testService.getAllUserInternational",
+      "fieldTypeName" : "com.sid.gl.switchingdatasource.service.TestService",
+      "sourceClassName" : "com.sid.gl.switchingdatasource.controller.TestController",
+      "fieldName" : "testService",
+      "methodName" : "getAllUserInternational",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Collection<java.lang.Object>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "com.sid.gl.switchingdatasource.service.TestService#getAllUserInternational#()Ljava.util.List<Lcom.sid.gl.switchingdatasource.entities.UserInternational;>;"
+    } ]
+  }
+}
